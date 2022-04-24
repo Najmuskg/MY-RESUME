@@ -1,0 +1,191 @@
+
+/*==================================
+commonm css
+=====================================*/
+
+body{
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5em;
+    background-image: linear-gradient( -30deg,#84a8d4, #926d98);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    margin: 0 auto;
+    width: 780px;
+
+}
+
+/*==================================
+header css
+=====================================*/
+
+#header-area{
+    width: 100%;
+    clear: both;
+    margin-top: 70px;
+}
+.inner-header{
+background: #fff;
+padding: 20px 0;
+}
+.main-menu{
+    width:100%;
+}
+
+.main-menu ul{
+    list-style: none;
+    text-align: center;
+    margin-right: 20px;
+    padding: 0;
+}
+.main-menu li{
+    display: inline-block;
+    margin-right: -17px;
+}
+
+.main-menu a{
+    text-decoration: none;
+    color: #626262;
+    font-size: 16px;
+    padding: 40px 21px ;
+}
+.main-menu a:hover{
+  background: #ea6a45;
+  transition: 0.5s;
+  color: #fff;
+   
+}
+
+.fa-solid{
+    margin-left: 10px;
+}
+
+/*==================================
+image css
+=====================================*/
+
+.image-area{
+    width: 100%;
+    clear: both;
+}
+
+.image{
+width: 100%;
+margin-top:30px ;
+}
+
+/*==================================
+work area css
+=====================================*/
+
+#work-area{
+    width: 100%;
+    clear: both;
+    margin-top: -7px;
+;
+
+}
+.inner-work{
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 40px 0;
+}
+.logo-area{
+    width: 30%;
+    text-align: center;
+}
+.text-area{
+    width: 70%;
+    text-align: left;
+    margin-left: 45px;
+}
+.text-area h2{
+    color: #626262;
+    font-size: 27px;
+    margin: 10px 0;
+}
+.text-area p{
+    color: #808181;
+    font-size: 14px;
+    margin: 0;
+    width: 447px;
+}
+
+/*==================================
+contact area css
+=====================================*/
+
+#contact-area{
+    width: 100%;
+    clear: both;
+}
+.inner-contact{
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 40px 0;
+  
+}
+.inner-contact ul{
+    list-style: none;
+    padding-left: 20px;
+}
+.inner-contact li{
+  margin-bottom: 10px;
+  font-size: 19px;
+  color: #b3b3b3;
+}
+strong{
+    color: #7d7d7d;
+}
+.name-area{
+    width: 100%;
+    border-left: 4px solid #ea6a45;
+    margin-left: 24px;
+}
+
+
+.phone-area{
+    width: 100%;
+    border-left: 4px solid #ea6a45;
+    margin-left: 80px;
+}
+.phone-area a{
+text-decoration: none;
+color: #b3b3b3;
+}
+.phone-area a:hover{
+    color: #000;
+    transition: 300ms;
+}
+
+/*==================================
+footer area css
+=====================================*/
+
+.inner-footer{
+    background: #ebebeb;
+    PADDING: 1px 0;
+}
+.inner-footer p{
+    color: #b3b3b3;
+    text-align: center;
+}
+.inner-footer img{
+    display: block;
+    margin-top: 20px;
+}
+
+.fa-brands {
+    margin-right: 7px;
+    font-size: 25px;
+    color: #b3b3b3;
+}
+.fa-twitter:hover{
+    color: #00acee;
+    transition: 0.5s;
+}
