@@ -1,0 +1,22 @@
+#hero-area{
+    width: 100%;
+    clear: both;
+}
+.inner-hero{
+    background: linear-gradient(rgb(120, 120, 174),rgb(59, 59, 238),rgb(88, 155, 243));
+    padding: 70px 0px;
+}
+table{
+    margin-left: 35px;
+    text-align: start;
+    border: 2px solid #fff;
+}
+
+th{
+    border: 2px solid rgb(231, 128, 128);
+ color: aqua;
+    }
+td{
+border: 2px solid #fff;
+color: #fff;
+}

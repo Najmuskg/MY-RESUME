@@ -6,7 +6,7 @@
     margin-top: 35px;
 }
 .inner-hero{
-    background: #fff;
+    background: rgb(200, 200, 241);
     display: flex;
     justify-content: space-between;
     padding: 5px 0 45px 0;
