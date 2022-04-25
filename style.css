@@ -1,191 +1,213 @@
-
 /*==================================
 commonm css
 =====================================*/
 
-body{
-    color: #000;
-    font-size: 16px;
-    line-height: 1.5em;
-    background-image: linear-gradient( -30deg,#84a8d4, #926d98);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+body {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5em;
+  background-image: linear-gradient(-30deg, #84a8d4, #926d98);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.container{
-    margin: 0 auto;
-    width: 780px;
-
+.container {
+  margin: 0 auto;
+  width: 780px;
 }
 
 /*==================================
 header css
 =====================================*/
 
-#header-area{
-    width: 100%;
-    clear: both;
-    margin-top: 70px;
+#header-area {
+  width: 100%;
+  clear: both;
+  margin-top: 70px;
 }
-.inner-header{
-background: #fff;
-padding: 20px 0;
+.inner-header {
+  background: #fff;
+  padding: 20px 0;
 }
-.main-menu{
-    width:100%;
-}
-
-.main-menu ul{
-    list-style: none;
-    text-align: center;
-    margin-right: 20px;
-    padding: 0;
-}
-.main-menu li{
-    display: inline-block;
-    margin-right: -17px;
+.main-menu {
+  width: 100%;
 }
 
-.main-menu a{
-    text-decoration: none;
-    color: #626262;
-    font-size: 16px;
-    padding: 40px 21px ;
+.main-menu ul {
+  list-style: none;
+  text-align: center;
+  margin-right: 20px;
+  padding: 0;
 }
-.main-menu a:hover{
+.main-menu li {
+  display: inline-block;
+  margin-right: -17px;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: #626262;
+  font-size: 16px;
+  padding: 40px 21px;
+}
+.main-menu a:hover {
   background: #ea6a45;
   transition: 0.5s;
   color: #fff;
-   
 }
 
-.fa-solid{
-    margin-left: 10px;
+.fa-solid {
+  margin-left: 10px;
 }
 
 /*==================================
 image css
 =====================================*/
 
-.image-area{
-    width: 100%;
-    clear: both;
+.image-area {
+  width: 100%;
+  clear: both;
 }
 
-.image{
-width: 100%;
-margin-top:30px ;
+.image {
+  width: 100%;
+  margin-top: 30px;
 }
 
 /*==================================
 work area css
 =====================================*/
 
-#work-area{
-    width: 100%;
-    clear: both;
-    margin-top: -7px;
-;
-
+#work-area {
+  width: 100%;
+  clear: both;
+  margin-top: -7px;
 }
-.inner-work{
-    display: flex;
-    justify-content: space-between;
-    background: #ffffff;
-    padding: 40px 0;
+.inner-work {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 40px 0;
 }
-.logo-area{
-    width: 30%;
-    text-align: center;
+.logo-area {
+  width: 30%;
+  text-align: center;
 }
-.text-area{
-    width: 70%;
-    text-align: left;
-    margin-left: 45px;
+.text-area {
+  width: 70%;
+  text-align: left;
+  margin-left: 45px;
 }
-.text-area h2{
-    color: #626262;
-    font-size: 27px;
-    margin: 10px 0;
+.text-area h2 {
+  color: #626262;
+  font-size: 27px;
+  margin: 10px 0;
 }
-.text-area p{
-    color: #808181;
-    font-size: 14px;
-    margin: 0;
-    width: 447px;
+.text-area p {
+  color: #808181;
+  font-size: 14px;
+  margin: 0;
+  width: 447px;
 }
 
 /*==================================
 contact area css
 =====================================*/
 
-#contact-area{
-    width: 100%;
-    clear: both;
+#contact-area {
+  width: 100%;
+  clear: both;
 }
-.inner-contact{
-    display: flex;
-    justify-content: space-between;
-    background: #ffffff;
-    padding: 40px 0;
-  
+.inner-contact {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 40px 0;
 }
-.inner-contact ul{
-    list-style: none;
-    padding-left: 20px;
+.inner-contact ul {
+  list-style: none;
+  padding-left: 20px;
 }
-.inner-contact li{
+.inner-contact li {
   margin-bottom: 10px;
   font-size: 19px;
   color: #b3b3b3;
 }
-strong{
-    color: #7d7d7d;
+strong {
+  color: #7d7d7d;
 }
-.name-area{
-    width: 100%;
-    border-left: 4px solid #ea6a45;
-    margin-left: 24px;
+.name-area {
+  width: 100%;
+  border-left: 4px solid #ea6a45;
+  margin-left: 24px;
 }
 
+.phone-area {
+  width: 100%;
+  border-left: 4px solid #ea6a45;
+  margin-left: 80px;
+}
+.phone-area a {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+.phone-area a:hover {
+  color: #000;
+  transition: 300ms;
+}
 
-.phone-area{
-    width: 100%;
-    border-left: 4px solid #ea6a45;
-    margin-left: 80px;
+/* education css */
+
+#hero-area {
+  width: 100%;
+  clear: both;
 }
-.phone-area a{
-text-decoration: none;
-color: #b3b3b3;
+.inner-hero {
+  background: linear-gradient(
+    rgb(120, 120, 174),
+    rgb(59, 59, 238),
+    rgb(88, 155, 243)
+  );
+  padding: 70px 0px;
 }
-.phone-area a:hover{
-    color: #000;
-    transition: 300ms;
+table {
+  margin-left: 35px;
+  text-align: start;
+  border: 2px solid #fff;
+}
+
+th {
+  border: 2px solid rgb(231, 128, 128);
+  color: aqua;
+}
+td {
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 /*==================================
 footer area css
 =====================================*/
 
-.inner-footer{
-    background: #ebebeb;
-    PADDING: 1px 0;
+.inner-footer {
+  background: #ebebeb;
+  padding: 1px 0;
 }
-.inner-footer p{
-    color: #b3b3b3;
-    text-align: center;
+.inner-footer p {
+  color: #b3b3b3;
+  text-align: center;
 }
-.inner-footer img{
-    display: block;
-    margin-top: 20px;
+.inner-footer img {
+  display: block;
+  margin-top: 20px;
 }
 
 .fa-brands {
-    margin-right: 7px;
-    font-size: 25px;
-    color: #b3b3b3;
+  margin-right: 7px;
+  font-size: 25px;
+  color: #b3b3b3;
 }
-.fa-twitter:hover{
-    color: #00acee;
-    transition: 0.5s;
+.fa-twitter:hover {
+  color: #00acee;
+  transition: 0.5s;
 }
