@@ -26,7 +26,7 @@ header css
   margin-top: 70px;
 }
 .inner-header {
-  background: #fff;
+  background:linear-gradient(90deg, #39275a,#19054e, #15192e);
   padding: 20px 0;
 }
 .main-menu {
@@ -74,6 +74,7 @@ image css
   margin-top: 30px;
 }
 
+
 /*==================================
 work area css
 =====================================*/
@@ -113,6 +114,13 @@ work area css
 /*==================================
 contact area css
 =====================================*/
+.content{
+  margin-top: 40px;
+}
+#contents{
+  background: linear-gradient(90deg,#116cdb,#2e0c0c);
+
+}
 
 #contact-area {
   width: 100%;
@@ -184,6 +192,290 @@ td {
   border: 2px solid #fff;
   color: #fff;
 }
+
+
+/* profile css */
+
+/*==================================
+photo area css
+=====================================*/
+
+#photo-area{
+  width: 100%;
+  clear: both;
+  margin-top: 30px;
+}
+.inner-photo{
+  display: flex;
+  background: linear-gradient(#116cdb, #031f41, #0a4996);
+  height: 360px;
+}
+.photo{ 
+  margin: 55px 0 55px 35px;
+}
+.photo img{
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 65px 0px #fff;
+}
+.name{
+  margin: 140px 0 0 30px;
+}
+.name h2{
+  font-size: 40px;
+  color: #fff;
+}
+
+/*==================================
+main area css
+=====================================*/
+
+#main-area{
+width: 100%;
+clear: both;
+margin-top: -19px;
+}
+.inner-main{
+  background-color: #fff;
+}
+.bio{
+  width: 100%;
+  padding: 15px 0;
+}
+.inner-main h3{
+margin-left: 25px;
+}
+.inner-main h2{
+  margin-left: 25px;
+  }
+.inner-main p{
+      margin-left: 25px;
+      }
+.intro{
+  width: 100%;
+  padding: 15px 0; 
+}
+.education{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 17px;
+}
+.education li{
+  margin-top: 10px;
+}
+.city .fa-solid{
+  margin-right: 15px;
+}
+.city .fa-solid{
+  margin: 0 15px 0 0;
+}
+
+/* resume css */
+
+
+/*==================================
+picture area css
+=====================================*/
+#picture-area{
+  width: 100%;
+  clear: both;
+  margin-top: 30px;
+}
+
+.inner-picture{
+  background: linear-gradient(90deg,#031f41,#22436b, #66707c );
+  padding: 40px 0px;
+}
+
+.picture-name{
+  width: 100%;
+}
+
+.picture-name h2{
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+.border-bottom{
+  width: 70px;
+  border-top: 2px solid #fff;
+  margin-left: 355px;
+  margin-top: 45px;
+}
+/*==================================
+info area css
+=====================================*/
+#info-area{
+  width: 100%;
+  clear: both;
+}
+
+.inner-info{
+  background: #fff;
+  margin-top: -20px;
+  padding: 20px 0;
+}
+
+.inner-info ul{
+  list-style: none;
+  padding: 20px 30px;
+}
+
+.inner-info li{
+margin-top: 10px;
+}
+
+.connect-area h2{
+  text-align: center;
+  background: linear-gradient(10deg,#fff,#000);
+  font-size: 35px;
+  padding: 20px 0;
+  color: #fff;
+  width: 290px;
+  margin-left: 250px;
+  box-shadow: 15px 12px 5px 5px #ddd;
+  border-radius: 7px;
+}
+
+
+.connect-area{
+  width: 100%;
+  clear: both;
+}
+
+.connect-area a{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.connect-area a:hover{
+  color: #ea6a45;
+  transition: 0.5s;
+}
+.connect-area .fa-solid{
+  margin-right: 15px;
+}
+
+.education-area{
+  text-align: right;
+}
+
+.education-area h2{
+  text-align: center;
+  background: linear-gradient(10deg,#fff,#000);
+  font-size: 35px;
+  padding: 20px 0;
+  color: #fff;
+  width: 290px;
+  margin-left: 250px;
+  box-shadow: 15px 12px 5px 5px #ddd;
+  border-radius: 7px;
+}
+.education-area li{
+  color: #000;
+  font-size: 20px;
+}
+.experience-area{
+  width: 100%;
+  clear: both;
+  
+}
+.experience-area p{
+  margin-left: 38px;
+  margin-bottom: -13px;
+  font-size: 20px;
+}
+
+.experience-area h2{
+  text-align: center;
+  background: linear-gradient(10deg,#fff,#000);
+  font-size: 35px;
+  padding: 20px 0;
+  color: #fff;
+  width: 290px;
+  margin-left: 250px;
+  box-shadow: 15px 12px 5px 5px #ddd;
+  border-radius: 7px;
+}
+
+/* work css */
+
+
+
+#profession-area{
+  width: 100%;
+  clear: both;
+  margin-top: 35px;
+}
+.inner-profession{
+  background: rgb(200, 200, 241);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0 45px 0;
+}
+.profile{
+  background: #ddd;
+width: 355px;
+margin-left: 15px;
+box-shadow: -5px 0px 8px 3px #000;
+margin-top: 15px;
+}
+.profile-name{
+  background: rgb(180, 178, 178);
+  width: 250px;
+  margin: 150px 0 150px 30px;
+  padding: 10px;
+  box-shadow: -10px -6px 11px 4px #000;
+  border-radius: 10px;
+}
+.profile-name h2{
+  color: #000;
+  font-size: 27px;
+  margin: 10px 0;
+}
+
+.profile-name ul{
+  list-style: none;
+  padding: 0;
+}
+.profile-name li{
+  padding: 3px 0;
+}
+.profile-name a{
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.profile-name a:hover{
+  color: #ea6a45;
+  transition: 0.5s;
+}
+
+.profile-name .fa-solid{
+  margin-right: 15px;
+}
+.work{
+  margin-top: 50px;
+width: 400px;
+text-align: center;
+}
+.work p strong{
+  color: #421010;
+  font-size: 25px;
+}
+.work p i{
+  color: #684949;
+  font-size: 20px;
+}
+.work p{
+  margin: 0;
+  color: #2e0c0c;
+  font-size: 15px;
+}
+
 
 /*==================================
 footer area css
