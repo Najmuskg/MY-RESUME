@@ -20,6 +20,30 @@ body {
 header css
 =====================================*/
 
+.toggle-menu{
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 35px;
+  width: 32px;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  z-index: 991;
+  transition: all 0.5s ease-in-out;
+}
+.toggle-menu i{
+  background-color: #ffffff;
+display: block;
+height: 2px;
+width: 100%;
+transition: all 0.3s ease;
+}
+.toggle-menu i + i {
+  margin-top: .4375rem;
+}
+
 #header-area {
   width: 100%;
   clear: both;
@@ -41,14 +65,14 @@ header css
 }
 .main-menu li {
   display: inline-block;
-  margin-right: -17px;
+  margin-right: -21px;
 }
 
 .main-menu a {
   text-decoration: none;
   color: #626262;
   font-size: 16px;
-  padding: 40px 21px;
+  padding: 15px 21px;
 }
 .main-menu a:hover {
   background: #ea6a45;
@@ -502,4 +526,48 @@ footer area css
 .fa-twitter:hover {
   color: #00acee;
   transition: 0.5s;
+}
+
+.checkbtn{
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  padding: 0 20px;
+  line-height: 106px;
+  cursor: pointer;
+  display: none;
+
+}
+#check{
+  display: none;
+}
+
+/* @madia (max-width:900px){
+  .main-menu ul li a{
+    font-size:16px
+  }
+} */
+@media screen and (min-width:200px) and (max-width:900px){
+  .checkbtn{
+    display:block;
+  }
+  .main-menu ul{
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    background: #031f41;
+     text-align: center;
+     transition:all 0.5s;
+     left: -100%;
+    
+  }
+.main-menu ul li{
+  display: block;
+  margin: 10px 0;
+  line-height: 30px;
+}
+#check:checked~.main-menu ul{
+  left:0;
+}
 }

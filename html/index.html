@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/meanmenu.min.css">
     <script src="https://kit.fontawesome.com/b68052c440.js" crossorigin="anonymous"></script>
     <link href="/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/responsive.css">
     <title>My Resume</title>
 </head>
 <body>
     <header id="header-area">
         <div class="inner-header container">
+            <button class="toggle-menu">
+                <i></i>
+                <i></i>
+                <i></i>
+            </button>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="fa fa-bars"></i></label>
             <div class="main-menu">
                 <ul>
                     <li><a href="index.html">HOME<i class="fa-solid fa-home"></i></a></li>
@@ -69,5 +78,7 @@
  It takes me a ton of time to put it together so I'm glad you ...</p>
             </div>
         </footer>
+        <script src="/js/main.js"></script>
+        <script src="/js/jquery.meanmenu.min.js"></script>
 </body>
 </html>
